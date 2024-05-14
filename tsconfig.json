@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "removeComments": false,
+        "sourceMap": true,
+        "declaration": true,
+        "strict": true,
+        "strictFunctionTypes": false,
+        "moduleResolution": "Node",
+        "target": "ESNext",
+        "isolatedModules": true,
+        "outDir": "build"
+    },
+    "include": [
+        "./src/index.ts"
+    ]
+}

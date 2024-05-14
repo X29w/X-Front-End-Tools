@@ -1,0 +1,27 @@
+{
+  "name": "x-front-end-tools",
+  "version": "1.0.5",
+  "description": "A librabry for front-end tools",
+  "type": "module",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "clean": "rimraf build",
+    "build": "npm run clean && tsc && ts-add-js-extension --dir=build",
+    "patch": "npm run build && npm version patch"
+  },
+  "keywords": [
+    "ts",
+    "func"
+  ],
+  "author": "x29",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-add-js-extension": "^1.6.4",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "rimraf": "^5.0.7"
+  }
+}
