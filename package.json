@@ -1,6 +1,6 @@
 {
   "name": "x-front-end-tools",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A librabry for front-end tools",
   "type": "module",
   "main": "build/index.js",
